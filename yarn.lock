@@ -7850,6 +7850,11 @@
   "resolved" "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz"
   "version" "1.4.0"
 
+"negative-zero@^1.0.0":
+  "integrity" "sha1-mvQi827/stxYK83Ga4a/GtuhFgU="
+  "resolved" "https://registry.npmjs.org/negative-zero/-/negative-zero-1.0.0.tgz"
+  "version" "1.0.0"
+
 "negotiator@0.6.2":
   "integrity" "sha512-hZXc7K2e+PgeI1eDBe/10Ard4ekbfrrqG8Ep+8Jmf4JID2bNg7NvCPOZN+kfF574pFQI7mum2AUqDidoKqcTOw=="
   "resolved" "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.2.tgz"
@@ -7957,7 +7962,7 @@
   "resolved" "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.67.tgz"
   "version" "1.1.67"
 
-"node-sass@^4.0.0", "node-sass@^4.14.1":
+"node-sass@^4.0.0", "node-sass@4.14.1":
   "integrity" "sha512-sjCuOlvGyCJS40R8BscF5vhVlQjNN069NtQ1gSxyK1u9iqvn6tf7O1R4GNowVZfiZUCRt5MmMs1xd+4V/7Yr0g=="
   "resolved" "https://registry.npmjs.org/node-sass/-/node-sass-4.14.1.tgz"
   "version" "4.14.1"
@@ -8280,6 +8285,16 @@
   dependencies:
     "os-homedir" "^1.0.0"
     "os-tmpdir" "^1.0.0"
+
+"ow-lite@^0.0.2":
+  "integrity" "sha1-359QDmdAtlkKHpqWVzDUmo61l9E="
+  "resolved" "https://registry.npmjs.org/ow-lite/-/ow-lite-0.0.2.tgz"
+  "version" "0.0.2"
+
+"ow@^0.4.0":
+  "integrity" "sha512-kJNzxUgVd6EF5LoGs+s2/etJPwjfRDLXPTCfEgV8At77sRrV+PSFA8lcoW2HF15Qd455mIR2Stee/2MzDiFBDA=="
+  "resolved" "https://registry.npmjs.org/ow/-/ow-0.4.0.tgz"
+  "version" "0.4.0"
 
 "p-each-series@^2.1.0":
   "integrity" "sha512-ycIL2+1V32th+8scbpTvyHNaHe02z0sjgh91XXjAk+ZeXoPN4Z46DVUnzdso0aX4KckKw0FNNFHdjZ2UsZvxiA=="
@@ -9535,6 +9550,16 @@
   dependencies:
     "performance-now" "^2.1.0"
 
+"random@^2.2.0":
+  "integrity" "sha512-4HBR4Xye4jJ41QBi6RfIaO1yKQpxVUZafQtdE6NvvjzirNlwWgsk3tkGLTbQtWUarF4ofZsUVEmWqB1TDQlkwA=="
+  "resolved" "https://registry.npmjs.org/random/-/random-2.2.0.tgz"
+  "version" "2.2.0"
+  dependencies:
+    "babel-runtime" "^6.26.0"
+    "ow" "^0.4.0"
+    "ow-lite" "^0.0.2"
+    "seedrandom" "^3.0.5"
+
 "randombytes@^2.0.0", "randombytes@^2.0.1", "randombytes@^2.0.5", "randombytes@^2.1.0":
   "integrity" "sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ=="
   "resolved" "https://registry.yarnpkg.com/randombytes/-/randombytes-2.1.0.tgz"
@@ -10392,6 +10417,11 @@
   dependencies:
     "js-base64" "^2.1.8"
     "source-map" "^0.4.2"
+
+"seedrandom@^3.0.5":
+  "integrity" "sha512-8OwmbklUNzwezjGInmZ+2clQmExQPvomqjL7LFqOYqtmuxRgQYqOD3mHaU+MvZn5FLUeVxVfQjwLZW/n/JFuqg=="
+  "resolved" "https://registry.npmjs.org/seedrandom/-/seedrandom-3.0.5.tgz"
+  "version" "3.0.5"
 
 "select-hose@^2.0.0":
   "integrity" "sha1-Yl2GWPhlr0Psliv8N2o3NZpJlMo="
@@ -12388,3 +12418,10 @@
     "which-module" "^2.0.0"
     "y18n" "^4.0.0"
     "yargs-parser" "^18.1.2"
+
+"zeropad@^1.1.0":
+  "integrity" "sha1-Ml+T6y0OAW/0QtTjW90CbsLNopI="
+  "resolved" "https://registry.npmjs.org/zeropad/-/zeropad-1.1.0.tgz"
+  "version" "1.1.0"
+  dependencies:
+    "negative-zero" "^1.0.0"
