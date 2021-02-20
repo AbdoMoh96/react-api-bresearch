@@ -1,0 +1,52 @@
+  .main-header {
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        // background-color: #73cef9;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+          url("../../img/header/banner.jpg") center center;
+        background-size: cover;
+
+        nav {
+          width: 100vw;
+          position: fixed;
+          z-index: 2;
+          display: flex;
+          justify-content: space-between;
+          padding: 20px;
+        }
+
+        .header-content {
+          width: 50vw;
+          height: 60vh;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+
+          p {
+            color: #fff;
+            margin-bottom: 20px;
+            text-shadow: 3px 3px 5px #000000;
+          }
+
+          .subjects {
+            color: #fff;
+            font-size: 2.8rem;
+            text-shadow: 3px 3px 5px #000000;
+          }
+
+          .roll {
+            font-size: 2rem;
+          }
+
+          .name {
+            font-size: 3rem;
+          }
+        }
+      }

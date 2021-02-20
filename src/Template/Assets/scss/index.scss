@@ -1,3 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
-@import './partials/animations';
-@import './style/style';
+@import '../../../../node_modules/bootstrap/scss/bootstrap-reboot.scss';
+
+@import './styles/main/index.scss';
+@import './styles/responsive/responsive.scss';

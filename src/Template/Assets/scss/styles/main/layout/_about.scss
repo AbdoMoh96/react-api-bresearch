@@ -1,0 +1,70 @@
+.about {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: repeat(2, 500px);
+    grid-auto-rows: auto;
+    justify-content: center;
+    align-content: center;
+    column-gap: 50px;
+    row-gap: 50px;
+    padding: 50px;
+    background-color: #444cf7;
+    background-image: linear-gradient(
+      43deg,
+      #444cf7 0%,
+      #c850c0 46%,
+      #ffcc70 100%
+    );
+
+    div {
+      background-color: #fff;
+      box-shadow: #32325d40 0px 30px 60px -12px, #0000004d 0px 18px 36px -18px;
+      border-radius: 10px;
+    }
+
+    .title{
+      grid-column:1 / -1;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .list_title{
+      text-align: center;
+      color: #ffffff;
+      margin-top: 20px;
+    }
+
+    .main_content{
+      height: 600px;
+      background-color: $mainBcgColor;
+    }
+
+    .certificate {
+      grid-column:1 / -1;
+      height: 150px;
+      background-color: $mainBcgColor;
+
+      blockquote{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        p{
+          font-size: 2rem;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+
+        .sourse{
+          font-size: 1rem;
+          opacity: 0.5;
+          text-transform: uppercase;
+        }
+      }
+    }
+
+
+  }

@@ -1,0 +1,13 @@
+.super_container{
+  // background-color: green;
+  width: 100vw;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(10 , 10vw);
+  grid-template-rows: 4vh 92vh 4vh;
+
+  @import './sections/header.scss';
+   @import './sections/mainContent.scss';
+     @import './sections/footer.scss';
+     @import './sections/sideNav.scss';
+}

@@ -1,0 +1,44 @@
+/*********************************
+******responsive=style=order*****
+*********************************/
+
+@media (max-width: 1220px) {
+  /*max-width: 1220px ==> small-desktop*/
+  @import "./small-desktop/index.scss";
+}
+
+@media (max-width: 1040px) {
+  /*max-width: 1040px ==> ipad-landscape*/
+  @import "./ipad-landscape/index.scss";
+}
+
+@media (max-width: 770px) {
+  /*max-width: 770px ==> ipad-portrait*/
+  @import "./ipad-portrait/index.scss";
+}
+
+@media (max-width: 415px) {
+  /*max-width: 415px ==> iphone-6-7-8-plus*/
+  @import "./iphone-6-7-8-plus/index.scss";
+}
+
+@media (max-width: 380px) {
+  /*max-width: 380px ==>  iphone-6*/
+  @import "./iphone-6/index.scss";
+}
+
+
+@media (max-width: 378px) {
+    /*max-width: 375px ==> iphone-6-7-8*/
+    @import "./iphone-6-7-8/index.scss";
+}
+
+
+@media (max-width: 350px) {
+  /*max-width: 350px ==> iphone-5*/
+  @import "./iphone-5/index.scss";
+}
+
+/*********************************
+******don't=change=the=order*****
+*********************************/
