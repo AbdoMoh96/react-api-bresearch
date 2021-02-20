@@ -1,4 +1,4 @@
-# Getting Started with Create React App (CRT) Pattern
+# Bresearch FrontEnd React.js App (Not Complete!!).
 
 In the project directory, you can run:
 
@@ -8,5 +8,3 @@ then run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
